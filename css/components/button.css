@@ -1,0 +1,24 @@
+.button{
+    display: inline-block;
+    background-color:#ff1b85;
+    padding:18px 20px;
+    box-shadow: 5px 5px 0 black;
+    margin-right: 0;
+    transition: transform 100ms cubic-bezier(.45,.97,.68,2.48);
+    font-size: 20px ;
+    color: #fff;
+    text-decoration: none;
+
+}
+
+.button:hover{
+    transform: scale(1.08);
+}
+
+.logo{
+    transition: transform 100ms cubic-bezier(.45,.97,.68,2.48);}
+.logo:hover{
+    top:-4px;box-shadow:2px 2px 1px rgb(0, 0, 0);
+    transform: scale(1.08);
+}
+    
